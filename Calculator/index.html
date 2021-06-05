@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Web-Calculator</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body bgcolor="Grey">
+    <div class="main">
+        <form name="form">
+            <div class="view" alaign="center">
+                <output class="textView" name="textView">
+            </div>
+        </form>
+        <table>
+            <tr>
+                <td><input class="buttonEnter" type="button" value="7" onclick="insert(value)"></td>
+                <td><input class="buttonEnter" type="button" value="8" onclick="insert(value)"></td>
+                <td><input class="buttonEnter" type="button" value="9" onclick="insert(value)"></td>
+                <td><input class="buttonEnter" type="button" value="/" onclick="insert(value)"></td>
+            </tr>
+            <tr>
+                <td><input class="buttonEnter" type="button" value="4" onclick="insert(value)"></td>
+                <td><input class="buttonEnter" type="button" value="5" onclick="insert(value)"></td>
+                <td><input class="buttonEnter" type="button" value="6" onclick="insert(value)"></td>
+                <td><input class="buttonEnter" type="button" value="*" onclick="insert(value)"></td>
+            </tr>
+            <tr>
+                <td><input class="buttonEnter" type="button" value="1" onclick="insert(value)"></td>
+                <td><input class="buttonEnter" type="button" value="2" onclick="insert(value)"></td>
+                <td><input class="buttonEnter" type="button" value="3" onclick="insert(value)"></td>
+                <td><input class="buttonEnter" type="button" value="-" onclick="insert(value)"></td>
+            </tr>
+            <tr>
+                <td><input class="buttonEnter" type="button" value="0" onclick="insert(value)"></td>
+                <td><input class="buttonEnter" type="button" value="." onclick="insert(value)"></td>
+                <td><input class="buttonEnter" type="button" value="=" onclick="equal(value)"></td>
+                <td><input class="buttonEnter" type="button" value="+" onclick="insert(value)"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input class="buttonClear" type="button" value="c" onclick="clearText()"></td>
+                <td colspan="2"><input class="buttonClear" type="button" value="&larr;" onclick="clearSymbol()"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="history">
+        <form name="form2">
+            <output class="textHistory" name="textHistory">
+        </form>
+    </div>
+</body>
+
+</html>

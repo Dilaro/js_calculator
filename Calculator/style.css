@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 310px;
+    background: black;
+    position: absolute;
+    top: 7%;
+    left: 6%;
+}
+
+.buttonEnter{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 1px;
+    cursor: pointer;
+}
+
+.buttonClear{
+    width: 105px;
+    height: 50px;
+    font-size: 25px;
+    margin: 1px;
+    cursor: pointer;
+}
+
+.view{
+    text-align-last: end;
+    background: white;
+    width: 220px;
+}
+
+.textView{
+    width: 200px;
+    margin: 2px;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.textHistory{
+    position: absolute;
+    top: 7%;
+    left: 19%;
+    border: 3px black solid;
+    width: 230px;
+    height: 291px;
+    margin: 0px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 5px;
+    white-space: inherit;
+}
+
